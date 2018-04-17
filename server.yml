@@ -1,6 +1,6 @@
 ---
 - name: WinLin Check
-  hosts: win
+  hosts: win-group
   connection: local
   vars:
     values:
