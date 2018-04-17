@@ -1,8 +1,11 @@
 ---
-- hosts: win
-  become: true
+- name: WinLin Check
+  hosts: win
+  connection: local
+  vars:
+    values:
+      - value1
+      - value2
+      - value3
   tasks:
-    - name: Install IIS (Web-Server only)
-      win_feature:
-        name: Web-Server
-        state: present
+    - debug: msg="{{ ansible_os_family}}"
