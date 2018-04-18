@@ -3,5 +3,5 @@
   hosts: win
   tasks:
     - win_copy:
-        dest: C:\temp\foo.txt
+        dest: C:\Users\Administrator\Desktop
         content: abc123
