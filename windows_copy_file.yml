@@ -2,6 +2,6 @@
 - name: AWS Tag Management
   hosts: win
   tasks:
-    -  win_copy:
-         dest: C:\temp\foo.txt
-         content: abc123
+    - win_copy:
+        dest: C:\temp\foo.txt
+        content: abc123
