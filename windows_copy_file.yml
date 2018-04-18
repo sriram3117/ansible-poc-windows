@@ -3,5 +3,5 @@
   hosts: win
   tasks:
     - win_file:
-        path: C:\Users\Administrator
+        path: C:\Users\Administrator\Desktop\foo.conf
         state: touch
